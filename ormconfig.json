@@ -6,7 +6,7 @@
     "password": "123",
     "database": "gostack",
     "entities":[
-        "./src/models/Appointment.ts"
+        "./src/models/*.ts"
     ],
     "migrations": [
         "./src/database/migrations/*.ts"
